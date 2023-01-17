@@ -28,7 +28,7 @@ The following commands will download the script, and configure the correct permi
               - 8989:8989
             environment:
               - TDARR_URL=http://tdarr:8265
-              - TDARR_DB=wWlsdkvbx
+              - TDARR_DB=qWlsbkvbx
               - TDARR_PATH_TRANSLATE=/tv/|/media/tv/
             volumes:
               - ${HOME}/Sonarr:/config # config files
@@ -71,7 +71,7 @@ The following environment variables are required to be set in your container
   - This will be used as input to [sed](https://linux.die.net/man/1/sed)
   - This must be in the format `search|replace`
     - in the above example, only the first occurence of the word `search`, in the file path, will be replaced with the word `replace`
-  - see line #12 in the script
+  - see [this line](https://github.com/hollanbm/tdarr_autoscan/blob/main/tdarr_autoscan.sh#L12) in the script in the script
 
 ### tdarr_scan.sh
 
