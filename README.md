@@ -28,7 +28,7 @@ The following commands will download the script, and configure the correct permi
               - 8989:8989
             environment:
               - TDARR_URL=http://tdarr:8265
-              - TDARR_DB=qWlsbkvbx
+              - TDARR_DB_ID=qWlsbkvbx
               - TDARR_PATH_TRANSLATE=/tv/|/media/tv/
             volumes:
               - ${HOME}/Sonarr:/config # config files
